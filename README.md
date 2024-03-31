@@ -15,7 +15,7 @@ Check out our [website](https://talktolisten.com) for more information.
 - **Real-Time Interaction**: Experience real-time responses to your voice commands.
 - **Cross-Platform Compatibility**: Access 'Talk To Listen' on any device, anytime, anywhere.
 - **User-Friendly Interface**: Enjoy a seamless and intuitive user experience.
-- **Secure and Private**: Your data is safe and secure with us.
+
 
 ## Developer
 - Hieu "Leo" Nguyen. 
