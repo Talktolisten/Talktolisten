@@ -5,7 +5,7 @@
 
 Discover a new world of interaction with 'Talk To Listen' – where your voice brings characters to life! Engage in seamless conversations with a diverse universe of characters, each boasting their own unique personality and voice. 
 
-Check out our [website](https://talktolisten.com) for download links and previews.
+Check out [website](https://talktolisten.com) for download links and previews.
 
 ## Features
 - **Voice-Activated Conversations**: Interact with characters using your voice.
