@@ -18,7 +18,7 @@ Check out our [website](https://talktolisten.com) for more information.
 
 ## Architecture
 <div align="center">
-  <img src="img/architecture.png" height = "100%"/>
+  <img src="img/architecture.png" width = "100%"/>
 </div>
 
 ## Developer
