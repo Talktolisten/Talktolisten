@@ -65,6 +65,20 @@ The application's architecture is distributed, with several components interacti
 - **Azure Database for PostgreSQL**: A fully managed database service that provides high availability, scalability, and security for PostgreSQL databases.
 - **Azure Blob Storage**: Used to store large amounts of unstructured data, such as images, audio files, and other media files.
 
+#### Design
+- The database schema is designed to store user data, character information, and other application data in a structured and efficient manner.
+- **Entity-Relationship Diagram**: The database schema is designed using an Entity-Relationship Diagram (ERD) to visualize the relationships between different entities and attributes.
+  
+<div align="center">
+  <img src="img/eer.png" width = "100%"/>
+</div>
+
+- **UML Diagram**: The database schema is designed using a Unified Modeling Language (UML) diagram to visualize the classes, attributes, and relationships between different entities.
+
+<div align="center">
+  <img src="https://mermaid.ink/img/pako:eNqtVluv2jAM_itRHhkcjV1eeDybtocdpCNN28OEFKVtKNnapsoFqTriv89pCpTGAXbhhcqfHdufHccvNFeFoCuaV9yYj5KXmtebhsCvl5BvRmjyEiT-tzBWy6YkDuRMFmRFnr_gaMNrESNlzWUVi7dSG8twE4gjggpuBSlUNhJZWQtjed2SXAuAC8ZtfJhxmcm1bK1UTYxmUsXCVqutrARrZW6dRgIEr9aZWG53Yhz0qydp7Iw8Kksq-Qviy5QdrA5jyr3CmHHZWAKqabY9iFNndkpbVogrKV8Fb6aeA9Gl0t39dfDZ7JXMRcjnE5JPqYWw8DGxalzN8h23ZiL3ZCLsH71nXcJNq-We5x3iXzSF0FHh-qswVK5jvsWx6n33uUX1G2WMVTDAeA0DdrVMQQWibhU4S-FQzL28SCyV8PnmNaXjJdryXSX--PLdLImBE6DdnK4QZtfCGAgm4rYOcoRdj_qOQVrNQ6VWrmUJhSGi4fB_SLXvFMz9SAVu8FQjU6oSvCHSeBSh4wPEHXFxTiY1lhNchAGzTENv0tDbNPQuDb2fQncMjv4pGEoyMr_g5bOvKkrOtN7P6Ow56eDXMcFhbH5zdsbz538zAC-JuYOFVIUQ8BzhTxg1owAP06WBPfmxzKIQkP3hr_xPGYIAwkc_pjd0uaFktljA1wy-phGtQB7eDRqs_KN7r5G_ske7yNvrhwdvuz6VaENDqElXty1STvou9_o7Pj09KKDKLddW5rIdezg6P2n3lsuxWSYq1ZSGWXU0Ck9dUDuR9qgGL-G1MSw8PlulkWxOVuEoJPV0YOd7jkd3xie-Lq9HT58y9gqBuNEljXROa6FhuS1gme77fUPD_ke9ciG23FXW-ziAKndWfe2anK62vDJiTl3rN9ph_z5JRSGt0uthQ_d_c3Db_FAKdKx24vAbOkyIsg?type=png" width = "100%"/>
+</div>
+
 ### Continuous Integration/Continuous Deployment
 - Tech: Git/GitHub, GitHub Actions, Docker, Azure Virtual Machine
 
