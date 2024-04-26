@@ -3,19 +3,18 @@
   <p style="font-size:1.2rem"><a target="_blank" href="https://talktolisten.com">Talk To Listen</a></p>
 </div>
 
-Discover a new world of interaction with 'Talk To Listen' – where your voice brings characters to life! Engage in seamless conversations with a diverse universe of characters, each boasting their own unique personality and voice. 
+Discover a new world of interaction with 'Talk To Listen' on your mobile phone – where your voice brings characters to life! Engage in seamless conversations with a diverse universe of characters, each boasting their own unique personality and voice. 
 
 Check out [website](https://talktolisten.com) for download links and previews.
 
 ## Features
-- **Voice-Activated Conversations**: Interact with characters using your voice.
+- **Voice-Activated Conversations**: Interact with characters using your voice, and you don't need to touch the screen.
 - **Diverse Characters**: Engage with a wide range of characters, each with their own unique personality and voice.
 - **Group Conversations**: Talk with multiple characters at once.
 - **Immersive Storytelling**: Dive into a world of storytelling and adventure.
 - **Customizable Characters**: Personalize your characters with unique traits and characteristics.
 - **Real-Time Interaction**: Experience real-time responses to your voice commands.
 - **Cross-Platform Compatibility**: Access 'Talk To Listen' on any device, anytime, anywhere.
-- **User-Friendly Interface**: Enjoy a seamless and intuitive user experience.
 
 ## Architecture
 <div align="center">
@@ -97,7 +96,6 @@ The application's architecture is distributed, with several components interacti
 ### 6. Third-party APIs
 - Voice Live Streaming: [Deepgram](https://www.deepgram.com/)
 - Text To Speech: [EleventLabs](https://elevenlabs.io), [Azure Text To Speech](https://azure.microsoft.com/en-us/products/ai-services/ai-speech)
-- Text generation: Google Gemini, Azure OpenAI.
 
 ## Developer
 - Hieu "Leo" Nguyen. 
