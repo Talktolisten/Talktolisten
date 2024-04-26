@@ -8,7 +8,7 @@ Discover a new world of interaction with 'Talk To Listen' on your mobile phone â
 Check out [website](https://talktolisten.com) for download links and previews.
 
 ## Features
-- **Voice-Activated Conversations**: Interact with characters using your voice, and you don't need to touch the screen.
+- **Voice-Activated Conversations**: Interact with characters using your voice, you don't have to type anything, or touch the screen, just talk and listen.
 - **Diverse Characters**: Engage with a wide range of characters, each with their own unique personality and voice.
 - **Group Conversations**: Talk with multiple characters at once.
 - **Immersive Storytelling**: Dive into a world of storytelling and adventure.
