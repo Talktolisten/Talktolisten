@@ -18,6 +18,11 @@ Check out [website](https://talktolisten.com) for download links and previews.
 - **Multi-Language Support**: Communicate with characters in multiple languages.
 - **Safe and Secure**: Enjoy a safe and secure environment for conversations, generating content that is safe for all ages.
 
+## Tech Stack
+<div align="center">
+  <img src="https://ttl-presentation.s3.us-east-2.amazonaws.com/tech-stack.png" width = "100%"/>
+</div>
+
 ## Architecture
 <div align="center">
   <img src="img/architecture.png" width = "100%"/>
@@ -106,6 +111,7 @@ The application's architecture is distributed, with several components interacti
 ### 7. Third-party APIs
 - Voice Live Streaming: [Deepgram](https://www.deepgram.com/)
 - Text To Speech: [EleventLabs](https://elevenlabs.io), [Azure Text To Speech](https://azure.microsoft.com/en-us/products/ai-services/ai-speech)
+- Image generation: [Azure OpenAI service - Dall-e 3](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 
 ## Developer
 - Hieu "Leo" Nguyen. 
