@@ -19,13 +19,13 @@ Check out [website](https://talktolisten.com) for download links and previews.
 - **Safe and Secure**: Enjoy a safe and secure environment for conversations, generating content that is safe for all ages.
 
 ## Tech Stack
-<div align="center">
-  <img src="https://ttl-presentation.s3.us-east-2.amazonaws.com/tech-stack.png" width = "100%"/>
+<div style="background-color: #fff; width: 100%;" align="center">
+  <img src="https://ttl.azureedge.net/ttl-presentation/tech-stack.png" width = "100%"/>
 </div>
 
 ## Architecture
-<div align="center">
-  <img src="img/architecture.png" width = "100%"/>
+<div style="background-color: #fff; width: 100%;" align="center">
+  <img src="https://ttl.azureedge.net/ttl-presentation/architecture.png" width = "100%"/>
 </div>
 
 ## Overview
@@ -67,13 +67,14 @@ The application's architecture is distributed, with several components interacti
 - **SSL/TLS**: The backend services use SSL/TLS to encrypt data in transit and ensure secure communication between the frontend and backend.
 
 ### 4. Database
-- Tech: PostgreSQL, Azure Database for PostgreSQL, Azure Blob Storage
+- Tech: PostgreSQL, Azure Database for PostgreSQL, Azure Blob Storage, Azure CDN (Content Delivery Network).
 
 ---
 
 - **PostgreSQL**: Talk To Listen uses PostgreSQL as the primary database to store user data, character information, and other application data.
 - **Azure Database for PostgreSQL**: A fully managed database service that provides high availability, scalability, and security for PostgreSQL databases.
 - **Azure Blob Storage**: Used to store large amounts of unstructured data, such as images, audio files, and other media files.
+- **Azure CDN (Content Delivery Network)**: The Azure CDN is used to cache static content, such as images and media files, to improve performance and reduce latency for users.
 
 #### Design
 - The database schema is designed to store user data, character information, and other application data in a structured and efficient manner.
