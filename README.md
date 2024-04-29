@@ -113,6 +113,10 @@ The application's architecture is distributed, with several components interacti
 - Text To Speech: [EleventLabs](https://elevenlabs.io), [Azure Text To Speech](https://azure.microsoft.com/en-us/products/ai-services/ai-speech)
 - Image generation: [Azure OpenAI service - Dall-e 3](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 
+## Upcoming Features
+- **Voice cloning Support**: I'm testing an open-source voice cloning model to allow users to clone their voice and use it in the app. This will make the conversations more personal and engaging.
+- **Tuning Gemini Pro**: I'm working on tuning the Gemini Pro model to let the characters talk more naturally and life-like.
+
 ## Developer
 - Hieu "Leo" Nguyen. 
 - [Website](https://www.mywebleo.com) and [GitHub](https://github.com/hieuminh65)
