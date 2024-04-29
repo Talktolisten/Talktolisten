@@ -53,6 +53,7 @@ The application's architecture is distributed, with several components interacti
 ### 3. Back-end
 - Tech: FastAPI(Python), SQLAlchemy, Firebase, Docker, Nginx, Gunicorn, Alembic, Pydantic, Pytest, RESTful APIs, Azure Virtual Machine.
 - [GitHub](https://github.com/Talktolisten/talktolisten-backend)
+- [API Documentation](https://ttl-api-reference.vercel.app)
 
 ---
 
