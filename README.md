@@ -117,6 +117,7 @@ The application's architecture is distributed, with several components interacti
 
 ## Upcoming Features
 - **Voice cloning Support**: I'm testing an open-source voice cloning model to allow users to clone their voice and use it in the app. This will make the conversations more personal and engaging.
+- **Lock Screen Support**: I'm working on adding lock screen support, which will allow users to interact with the app even when their screen is locked. This feature will enhance the app's usability on the go, save battery life, and provide convenience for users who use earphones.
 - **Tuning Gemini Pro**: I'm working on tuning the Gemini Pro model to let the characters talk more naturally and life-like.
 
 ## Developer
