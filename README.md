@@ -20,12 +20,12 @@ Check out [website](https://talktolisten.com) for download links and previews.
 
 ## Tech Stack
 <div style="background-color: #fff; width: 100%;" align="center">
-  <img src="https://ttl.azureedge.net/ttl-presentation/tech-stack.png" width = "100%"/>
+  <img src="https://ttl.blob.core.windows.net/ttl-presentation/tech-stack.png" width = "100%"/>
 </div>
 
 ## Architecture
 <div style="background-color: #fff; width: 100%;" align="center">
-  <img src="https://ttl.azureedge.net/ttl-presentation/architecture.png" width = "100%"/>
+  <img src="https://ttl.blob.core.windows.net/ttl-presentation/architecture.png" width = "100%"/>
 </div>
 
 ## Overview
