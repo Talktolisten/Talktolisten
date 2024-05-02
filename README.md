@@ -33,7 +33,10 @@ The application's architecture is distributed, with several components interacti
 
 ### 1. Infrastructure 
 - Tech: Azure Virtual Machine, Azure Application Gateway, Azure Load Balancer, Azure Virtual Network, Azure Network Security Group.
-- **Azure Application Gateway**: A web traffic load balancer to manage traffic to your web applications. (This is expensive, so it is likely to be removed in the future.)
+  
+--- 
+
+- **Azure Application Gateway**: A web traffic load balancer that manage traffic to servers. It provides SSL termination, which offloads the encryption and decryption of SSL traffic from web servers, and health probes, which automatically remove unhealthy instances from the rotation. (This service is expensive, so it is likely to be removed in the future.)
 - **Azure Load Balancer**: Distributes incoming network traffic across multiple virtual machines to ensure high availability and fault tolerance.
 - **Azure Virtual Network**: Connects virtual machines to each other and to other Azure services securely. The virtual machined are only accessible through this internal load balancer.
 - **Azure Network Security Group**: Provides network security by filtering inbound and outbound traffic to the virtual machines.
@@ -46,7 +49,7 @@ The application's architecture is distributed, with several components interacti
 
 - **Expo React Native (JavaScript)**: A cross-platform framework for building mobile applications using JavaScript and React. It allows developers to write code once and deploy it on both iOS and Android platforms.
 - **Expo Update**: Service that allows over-the-air updates for Talk To Listen. The app can be updated immediately without going through the app store. Any bugs or issues can be fixed quickly and efficiently.
-- **Redux**: A state management library for JavaScript applications. It helps manage the application's state in a predictable way.
+- **Redux**: A state management library that helps manage the application's state in a predictable way.
 - **Firebase**: Provide secure authentication for users and store data in real-time.
 - **Axios**: A promise-based HTTP client that makes it easy to send asynchronous HTTP requests to the backend server.
 
