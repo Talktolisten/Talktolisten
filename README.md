@@ -130,7 +130,7 @@ User's data and privacy are of utmost importance. The application uses various s
 - **Lock Screen Support**: I'm working on adding lock screen support, which will allow users to interact with the app even when their screen is locked. This feature will enhance the app's usability on the go, save battery life, and provide convenience for users who use earphones.
 <!-- - **Tuning Gemini Pro**: I'm working on tuning the Gemini Pro model to let the characters talk more naturally and life-like. -->
 
-## Developer
+<!-- ## Developer
 - Hieu "Leo" Nguyen. 
 - [Website](https://www.mywebleo.com) and [GitHub](https://github.com/hieuminh65)
-- The code is only for showcasing purposes and under the Apache 2.0 License.
+- The code is only for showcasing purposes and under the Apache 2.0 License. -->
