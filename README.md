@@ -3,11 +3,12 @@
   <p style="font-size:1.2rem"><a target="_blank" href="https://talktolisten.com">Talk To Listen</a></p>
 </div>
 
-Discover a new world of interaction with 'Talk To Listen' on your mobile phone – where your voice brings characters to life! Engage in seamless conversations with a diverse universe of characters, each boasting their own unique personality and voice. 
+Discover a new world of interaction with 'Talk To Listen' on your mobile phone – where your voice brings characters to life! Engage in seamless conversations with a diverse universe of characters, each boasting their own unique personality and voice.
 
 Check out [website](https://talktolisten.com) for download links and previews.
 
 ### Features
+
 - **Voice-Activated Conversations**: Interact with characters using your voice, you don't have to type anything, or touch the screen, just talk and listen.
 - **Diverse Characters**: Engage with a wide range of characters, each with their own unique personality and voice.
 - **Real-Time Interaction**: Experience real-time responses to your voice commands.
@@ -19,22 +20,26 @@ Check out [website](https://talktolisten.com) for download links and previews.
 - **Safe and Secure**: Enjoy a safe and secure environment for conversations, generating content that is safe for all ages.
 
 ## Tech Stack
+
 <div style="background-color: #fff; width: 100%;" align="center">
-  <img src="https://ttl.blob.core.windows.net/ttl-presentation/tech-stack.png" width = "100%"/>
+  <img src="img/tech-stack.png" width = "100%"/>
 </div>
 
 ## Architecture
+
 <div style="background-color: #fff; width: 100%;" align="center">
-  <img src="https://ttl.blob.core.windows.net/ttl-presentation/architecture.png" width = "100%"/>
+  <img src="img/architecture.png" width = "100%"/>
 </div>
 
 ## Overview
+
 The application's architecture is distributed, with several components interacting to provide the overall functionality. The front-end is built with Expo React Native, Redux, Firebase, and Axios, while the back-end uses FastAPI, SQLAlchemy, Firebase, Docker, and other technologies. The data is stored in a PostgreSQL database, and the application uses GitHub Actions, Docker, and Azure services for continuous integration and deployment. It also integrates with third-party APIs for features like voice live streaming and text to speech.
 
-### 1. Infrastructure 
+### 1. Infrastructure
+
 - Tech: Azure Virtual Machine, Azure Application Gateway, Azure Load Balancer, Azure Virtual Network, Azure Network Security Group.
-  
---- 
+
+---
 
 - **Azure Application Gateway**: A web traffic load balancer that manage traffic to servers. It provides SSL termination, which offloads the encryption and decryption of SSL traffic from web servers, and health probes, which automatically remove unhealthy instances from the rotation. (This service is expensive, so it is likely to be removed in the future.)
 - **Azure Load Balancer**: Distributes incoming network traffic across multiple virtual machines to ensure high availability and fault tolerance.
@@ -42,6 +47,7 @@ The application's architecture is distributed, with several components interacti
 - **Azure Network Security Group**: Provides network security by filtering inbound and outbound traffic to the virtual machines.
 
 ### 2. Front-end
+
 - Tech: Expo React Native (JavaScript), Redux, Firebase, Axios, Expo Update.
 - [GitHub](https://github.com/Talktolisten/talktolisten-frontend)
 
@@ -54,6 +60,7 @@ The application's architecture is distributed, with several components interacti
 - **Axios**: A promise-based HTTP client that makes it easy to send asynchronous HTTP requests to the backend server.
 
 ### 3. Back-end
+
 - Tech: FastAPI(Python), SQLAlchemy, Firebase, Docker, Nginx, Gunicorn, Alembic, Pydantic, Pytest, RESTful APIs, Azure Virtual Machine.
 - [GitHub](https://github.com/Talktolisten/talktolisten-backend)
 - [API Documentation](https://ttl-api-reference.vercel.app)
@@ -70,6 +77,7 @@ The application's architecture is distributed, with several components interacti
 - **SSL/TLS**: The backend services use SSL/TLS to encrypt data in transit and ensure secure communication between the frontend and backend.
 
 ### 4. Database
+
 - Tech: PostgreSQL, Azure Database for PostgreSQL, Azure Blob Storage, Azure CDN (Content Delivery Network).
 
 ---
@@ -80,9 +88,10 @@ The application's architecture is distributed, with several components interacti
 - **Azure CDN (Content Delivery Network)**: The Azure CDN is used to cache static content, such as images and media files, to improve performance and reduce latency for users.
 
 #### Design
+
 - The database schema is designed to store user data, character information, and other application data in a structured and efficient manner.
 - **Entity-Relationship Diagram**: The database schema is designed using an Entity-Relationship Diagram (ERD) to visualize the relationships between different entities and attributes.
-  
+
 <div style="background-color: #fff; width: 100%; border-radius:1rem">
   <img src="https://mermaid.ink/img/pako:eNqFktFugjAUhl-FnGt5Ae4YI45sDkLRKxJS26M2A0pKMTHguwtlTOKY61XTfuf7T9PTApMcwQFUr4IeFS3S0urXlvix1XW2LVuztz-Cd5_YL2FCLMdKIRdfWKcwwv3pfyzP9pcJn7s3PiHu2jccU0j1ovUJNZd5b25imBP9Zem6-3VFlRZMVHPPFPGo2mMuy2OdaTmRuzDwfrhBb5RKngXHOjtLwTA7SLXU4Fi68Ip1HG4jkznLj9w4Cbwgcj_HDFGyvOF_tnx3PPYNKyhQFVTw_qPboTgFfcICUxhQjgfa5HrQXnuUNlqSS8nA0arBFTQV71v9no7pELnQUm3G2TEjdL0BuQ6zJA?type=png" width = "100%"/>
 </div>
@@ -94,9 +103,10 @@ The application's architecture is distributed, with several components interacti
 </div>
 
 ### 5. Continuous Integration/Continuous Deployment
+
 - Tech: Git/GitHub, GitHub Actions, Docker, Azure Virtual Machine
 
---- 
+---
 
 - **Git/GitHub**: The source code is stored in GitHub repositories for version control and collaboration.
 - **GitHub Actions**: Used for continuous integration and continuous deployment (CI/CD) to automate the build, test, and deployment processes for the backend services.
@@ -108,7 +118,9 @@ The application's architecture is distributed, with several components interacti
 </div>
 
 ### 6. Security
-User's data and privacy are of utmost importance. The application uses various security measures to ensure that user data is protected and secure. 
+
+User's data and privacy are of utmost importance. The application uses various security measures to ensure that user data is protected and secure.
+
 - **SSL/TLS**: The backend services use SSL/TLS to encrypt data in transit and ensure secure communication between the frontend and backend.
 - **Firebase Authentication**: Provides secure authentication for users and ensures that only authorized users can access the application.
 - **Azure Network Security Group**: Filters inbound and outbound traffic to the virtual machines to provide network security.
@@ -121,16 +133,18 @@ User's data and privacy are of utmost importance. The application uses various s
 - Model deployment: [GitHub Repository](https://github.com/Talktolisten/talktolisten-LLM-prod) -->
 
 ### 7. Third-party APIs
+
 - Voice Live Streaming: [Deepgram](https://www.deepgram.com/)
 - Text To Speech: [EleventLabs](https://elevenlabs.io), [Azure Text To Speech](https://azure.microsoft.com/en-us/products/ai-services/ai-speech)
 - Image generation: [Azure OpenAI service - Dall-e 3](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 
 ## Upcoming Features
+
 - **Voice cloning Support**: I'm testing an open-source voice cloning model to allow users to clone their voice and use it in the app. This will make the conversations more personal and engaging.
 - **Lock Screen Support**: I'm working on adding lock screen support, which will allow users to interact with the app even when their screen is locked. This feature will enhance the app's usability on the go, save battery life, and provide convenience for users who use earphones.
 <!-- - **Tuning Gemini Pro**: I'm working on tuning the Gemini Pro model to let the characters talk more naturally and life-like. -->
 
 <!-- ## Developer
-- Hieu "Leo" Nguyen. 
+- Hieu "Leo" Nguyen.
 - [Website](https://www.mywebleo.com) and [GitHub](https://github.com/hieuminh65)
 - The code is only for showcasing purposes and under the Apache 2.0 License. -->
